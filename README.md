@@ -11,3 +11,5 @@ and to respect any confidential information provided by the group, although that
 
 The Working Group will consider the issues raised, reply in the public issue as they make progress or request clarification, and explain their resolution and the outcome of each issue.
 The group **MAY** invite individuals who have raised issues to participate in a dicussion. Any member of EEA is automatically entitled to participate in the Working Group.
+
+For information on joining the EEA please visit http://entethalliance.org/become-a-member

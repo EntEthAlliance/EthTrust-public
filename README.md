@@ -1,7 +1,7 @@
 # EthTrust — Public Comment
 
 **The public comment channel for the
-[EEA EthTrust Security Levels Specification](https://entethalliance.org/specs/ethtrust-sl/v3/)**
+[EEA EthTrust Security Levels Specification](https://entethalliance.github.io/wg-ethtrust-site/spec/v3/)**
 and other work of the
 [EthTrust Security Levels Working Group](https://entethalliance.github.io/wg-ethtrust-site/).
 
@@ -13,8 +13,8 @@ Anyone may raise feedback here — you do not need to be an EEA member.
 
 | | |
 |---|---|
-| **Current version** | [EEA EthTrust Security Levels Specification v3](https://entethalliance.org/specs/ethtrust-sl/v3/) (March 2025) |
-| **Checklist of requirements** | [v3 checklist](https://entethalliance.org/specs/ethtrust-sl/v3/checklist.html) |
+| **Current version** | [EEA EthTrust Security Levels Specification v3](https://entethalliance.github.io/wg-ethtrust-site/spec/v3/) (March 2025) |
+| **Checklist of requirements** | [v3 checklist](https://entethalliance.github.io/wg-ethtrust-site/spec/v3/checklist.html) |
 | **Previous versions** | [v2](https://entethalliance.org/specs/ethtrust-sl/v2) (Dec 2023) · [v1](https://entethalliance.org/specs/ethtrust-sl/v1/) (Aug 2022) |
 | **Working Group** | [EthTrust Security Levels WG](https://entethalliance.github.io/wg-ethtrust-site/) |
 

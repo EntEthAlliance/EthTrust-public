@@ -3,7 +3,7 @@ name: Editorial / Markup issue
 about: Editorial clarifications, link and markup fixes, ...
 title: "[simple]"
 labels: editorial
-assignees: ccordi, chaals, math0graham
+assignees: ccordi, math0graham
 
 ---
 

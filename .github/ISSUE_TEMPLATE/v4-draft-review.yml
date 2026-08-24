@@ -1,0 +1,70 @@
+name: v4 Draft Review feedback
+description: Review the EthTrust v4 public review draft — no GitHub or EEA-membership expertise needed, just your technical judgment.
+title: "[v4-review] "
+labels: ["v4-review"]
+assignees: ["ccordi"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reviewing the **[EthTrust v4 public review draft](https://entethalliance.github.io/wg-ethtrust-site/spec/v4/)**.
+
+        Status, for clarity: the draft is AI-generated and published **for validation and review only** — it is **not** an approved EEA specification.
+        [Version 3](https://entethalliance.github.io/wg-ethtrust-site/spec/v3/) remains the current approved specification and certification baseline.
+  - type: dropdown
+    id: feedback-type
+    attributes:
+      label: What kind of feedback is this?
+      description: Matches the draft's own review questions — pick the closest.
+      options:
+        - Correctness — a candidate requirement is technically wrong
+        - Requirement level — wrong tier ([S] / [M] / [Q] / [GP])
+        - Testability — cannot be verified as written
+        - Missing coverage — an EIP or risk the draft should address and doesn't
+        - Scope — this doesn't belong in EthTrust
+        - v3 → v4 comparison — a change is mischaracterized (new / modified / guidance-only)
+        - GBBC RMF relationship / mapping
+        - Editorial / other
+    validations:
+      required: true
+  - type: input
+    id: requirement-id
+    attributes:
+      label: Requirement ID(s)
+      description: "If your feedback targets specific candidate requirements, name them, e.g. [S-v4-01], [M-v4-03], [GP-v4-10]."
+      placeholder: "[S-v4-01]"
+    validations:
+      required: false
+  - type: input
+    id: section
+    attributes:
+      label: Draft section
+      description: "Otherwise (or additionally): which part of the draft? e.g. §2.2 Transient storage, §3 upgrade matrix, §4 RMF relationship."
+      placeholder: "§2.4 Fusaka transaction gas cap — EIP-7825"
+    validations:
+      required: false
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Your feedback
+      description: Anything from "this is wrong, here's why" to "this correctly captures current audit practice." References to EIPs, incidents, or tooling behavior are especially valuable.
+    validations:
+      required: true
+  - type: textarea
+    id: proposed-text
+    attributes:
+      label: Proposed replacement text (optional)
+      description: |
+        Exact normative language you'd propose instead. **Note:** substantive requirement text from non-members needs the
+        [EEA Non-Member Participation Agreement](https://github.com/EntEthAlliance/EthTrust-public/blob/main/EEA-Non-Member-Participation-Agreement.pdf)
+        (submarine-patent protection — see the README). Feedback without proposed text needs no paperwork.
+    validations:
+      required: false
+  - type: input
+    id: reviewer
+    attributes:
+      label: Name and affiliation (for public acknowledgment)
+      description: So your contribution can be credited, as with previous versions.
+      placeholder: "Jane Doe (ExampleAudit)"
+    validations:
+      required: false

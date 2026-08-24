@@ -18,7 +18,7 @@ remains the current approved baseline and certification target.
 
 **We want your feedback** — on candidate requirements, testability, the
 v3 → v4 changes, and anything the draft gets wrong or misses:
-**[open a v4 Draft Review issue](https://github.com/EntEthAlliance/EthTrust-public/issues/new?template=v4-draft-review.md)**.
+**[open a v4 Draft Review issue](https://github.com/EntEthAlliance/EthTrust-public/issues/new?template=v4-draft-review.yml)**.
 
 ---
 

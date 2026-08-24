@@ -15,7 +15,7 @@ Anyone may raise feedback here — you do not need to be an EEA member.
 |---|---|
 | **Current version** | [EEA EthTrust Security Levels Specification v3](https://entethalliance.github.io/wg-ethtrust-site/spec/v3/) (March 2025) |
 | **Checklist of requirements** | [v3 checklist](https://entethalliance.github.io/wg-ethtrust-site/spec/v3/checklist.html) |
-| **Previous versions** | [v2](https://entethalliance.org/specs/ethtrust-sl/v2) (Dec 2023) · [v1](https://entethalliance.org/specs/ethtrust-sl/v1/) (Aug 2022) |
+| **Previous versions** | [v2](https://entethalliance.github.io/wg-ethtrust-site/spec/v2/) (Dec 2023) · [v1](https://entethalliance.github.io/wg-ethtrust-site/spec/v1/) (Aug 2022) |
 | **Working Group** | [EthTrust Security Levels WG](https://entethalliance.github.io/wg-ethtrust-site/) |
 
 ## 💬 How to comment

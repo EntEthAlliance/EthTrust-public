@@ -15,15 +15,19 @@ body:
     id: feedback-type
     attributes:
       label: What kind of feedback is this?
-      description: Matches the draft's own review questions — pick the closest.
+      description: >-
+        Pick the closest. Wrong = technically incorrect; wrong level = should be a
+        different tier; not testable = an auditor or tool can't verify it as
+        written; v3→v4 mislabelled = a change is marked new/modified/guidance
+        incorrectly (see the draft's §2.7 comparison).
       options:
-        - Correctness — a candidate requirement is technically wrong
-        - Requirement level — wrong tier ([S] / [M] / [Q] / [GP])
-        - Testability — cannot be verified as written
-        - Missing coverage — an EIP or risk the draft should address and doesn't
-        - Scope — this doesn't belong in EthTrust
-        - v3 → v4 comparison — a change is mischaracterized (new / modified / guidance-only)
-        - GBBC RMF relationship / mapping
+        - Technically wrong
+        - Wrong level ([S]/[M]/[Q]/[GP])
+        - Not testable as written
+        - Missing an EIP or risk
+        - Out of scope for EthTrust
+        - v3 → v4 change mislabelled
+        - GBBC RMF mapping
         - Editorial / other
     validations:
       required: true
